@@ -12,9 +12,19 @@ body {
   margin: 0;
 }
 
+
+footer{
+  margin-top:auto; 
+  
+  background-color: #efefef;
+}
+
 .container {
+  
+  position: relative;
   display: flex;
   flex-direction: row;
+  
 }
 
 router-outlet + *  {

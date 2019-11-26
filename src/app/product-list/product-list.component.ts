@@ -1,5 +1,6 @@
+// Angular
 import { Component } from '@angular/core';
-
+// Component
 import { products } from '../products';
 
 @Component({
@@ -15,7 +16,7 @@ export class ProductListComponent {
   }
 
   onNotify(){
-    window.alert('yYou will be notified when the product goes on sale');
+    window.alert('You will be notified when the product goes on sale');
   }
 }
 
